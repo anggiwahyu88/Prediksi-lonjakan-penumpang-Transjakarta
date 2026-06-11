@@ -1,5 +1,5 @@
 # Executive Summary
-Project Name: Prediksi Lonjakan Penumpang Transjakarta pada Hari Libur atau Hari Tertentu Created By: Data Engineering Team 3
+Project Name: Prediksi Lonjakan Penumpang Transjakarta pada Hari Kerja, Hari Libur atau Hari Tertentu Created By: Data Engineering Team 3
 Date:  February, 2026  Version: 1.0
 
 
@@ -8,9 +8,9 @@ Date:  February, 2026  Version: 1.0
 ### 1.1 Project Overview
 
 * **Tujuan Project:** Memprediksi tingkat kepadatan penumpang TransJakarta untuk mendukung optimalisasi layanan dan kapasitas operasional.
-* **Scope Project:** Integrasi data transaksi, rute, halte, dan pengguna berbasis open data untuk analisis pola pergerakan.
-* **Expected Outcomes:** Dashboard Visualisasi Kepadatan Penumpang dan Model Prediksi Tren Perjalanan.
-* **Timeline:** Februari - Mei
+* **Scope Project:** Integrasi data tanggal, tipe hari, dan jumlah penumpang berbasis open data untuk analisis pola pergerakan.
+* **Expected Outcomes:** Dashboard Visualisasi Kepadatan Penumpang berdasarkan tipe hari.
+* **Timeline:** Februari - Juni
 
 ### 1.2 Stakeholders
 
@@ -29,27 +29,7 @@ Date:  February, 2026  Version: 1.0
 
 ### 2.1 Data Pemerintah (data.go.id)
 
-a. **Source Details**
-* **Dataset Name:** Data Jumlah Bus yang Beroperasi dan Jumlah Penumpang Layanan Transjakarta
-
-* **URL/Access Point:** https://data.go.id/dataset/dataset/data-jumlah-bus-yang-beroperasi-dan-jumlah-penumpang-layanan-transjakarta
-
-* **Data Owner:** Provinsi DKI Jakarta
-
-* **Update Frequency:** Triwulan
-
-
-**Data Analysis**
-* **Format Data:** CSV, Excel
-* **Volume Data:** 4,03 KB
-* **Time Coverage:** Oktober 2023 - September 2025
-* **Data Quality:**
-    * **Completeness:** 100% 
-    * **Accuracy:**  High (data resmi pemerintah DKI Jakarta)
-    * **Consistency:** Good (format standar)
-    * **Timeliness:**  Updates every 3 month    
-
-b. **Source Details**
+**Source Details**
 * **Dataset Name:** Jumlah Penumpang Angkutan Umum yang Terlayani per Hari Tahun 2023
 
 * **URL/Access Point:** https://data.go.id/dataset/dataset/jumlah-penumpang-angkutan-umum-yang-terlayani-per-hari-tahun-2023?utm_source
@@ -110,7 +90,7 @@ b. **Source Details**
 
 **Source Details**
 * **API Name:**  libur deno API
-* **Endpoint URL:**  https://libur.deno.dev/api
+* **Endpoint URL:**  [https://libur.deno.dev/api](https://api-hari-libur.vercel.app/api?year=2023)
 * **Provider:** libur deno
 * **Authentication Method:** -
 
