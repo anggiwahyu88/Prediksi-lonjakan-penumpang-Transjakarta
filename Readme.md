@@ -48,49 +48,11 @@ Date:  February, 2026  Version: 1.0
     * **Timeliness:**  Updates everyday 
 
 
-### 2.2 Dataset Kaggle
-
-**Source Details**
-* **Dataset Name:** Transjakarta - Public Transportation Transaction
-* **URL/Access Point:** https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction
-* **Creator/Publisher:**  dikisahkan (Kaggle Contributor)
-* **Last Update:**  April, 2023
-
-**Data Analysis**
-* **Format Data:** CSV
-* **Size & Dimensions:**  8.98MB, 37.000 rows.
-* **Data Fields:**
-    * `transID`
-    * `payCardID`
-    * `payCardBank`
-    * `payCardName`
-    * `payCardSex`
-    * `payCardBirthDate`
-    * `corridorID`
-    * `corridorName`
-    * `direction`
-    * `tapInStops`
-    * `tapInStopsName`
-    * `tapInStopsLat`
-    * `tapInStopsLon`
-    * `tapInTime`
-    * `tapOutStops`
-    * `tapOutStopsName`
-    * `tapOutStopsLat`
-    * `tapOutStopsLon`
-    * `tapOutTime`
-    * `payAmount`
-* **Quality Metrics:**
-    * **Missing Values:**  3–6% (mainly in tap-out related fields)
-    * **Data Types:** Properly formatted and structured according to standard tabular.
-    * **Consistency:** High
-    * **Documentation Quality:**  Good - From official open data portal of PT Transportasi Jakarta 
-
-### 2.3 Public APIs
+### 2.2 Public APIs
 
 **Source Details**
 * **API Name:**  libur deno API
-* **Endpoint URL:**  [https://libur.deno.dev/api](https://api-hari-libur.vercel.app/api?year=2023)
+* **Endpoint URL:**  [https://api-hari-libur.vercel.app/api](https://api-hari-libur.vercel.app/api?year=2023)
 * **Provider:** libur deno
 * **Authentication Method:** -
 
@@ -101,17 +63,4 @@ Date:  February, 2026  Version: 1.0
 * **Documentation Quality:** Cukup Lengkap
 * **Cost:** Gratis 
 
-### 2.4 Open Research Data
 
-**Source Details**
-* **Dataset Name:** Data Rute Jalur Transjakarta 
-* **Repository:**  satudata.jakarta.go.id - Data Rute Jalur Transjakarta
-
-* **Research Institution / Publisher:** BPBUMD (Provinsi DKI Jakarta)
-* **Publication Date:** Maret 2024
-
-**Data Analysis**
-* **Format & Structure:** CSV 
-* **Data Volume:** 49,7 Kb
-* **Data Quality:** High (Data resmi PT Trans Jakarta)
-* **Citation Requirements:** Pemerintah Provinsi DKI Jakarta. (2025). Data Rute Jalur TransJakarta. Satu Data Jakarta. https://satudata.jakarta.go.id/open-data/detail/data-rute-jalur-transjakarta (acces: 15 Februari 2026)
